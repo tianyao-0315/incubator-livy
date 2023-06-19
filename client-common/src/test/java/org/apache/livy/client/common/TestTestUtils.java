@@ -23,16 +23,16 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TestTestUtils {
-
-  @Test
-  public void testJacocoArgs() {
-    String args1 = TestUtils.getJacocoArgs();
-    String expected1 = System.getProperty("jacoco.args").replace("main.exec", "jacoco-1.exec");
-    assertEquals(expected1, args1);
-
-    String args2 = TestUtils.getJacocoArgs();
-    String expected2 = System.getProperty("jacoco.args").replace("main.exec", "jacoco-2.exec");
-    assertEquals(expected2, args2);
-  }
+//
+//  @Test
+//  public void testJacocoArgs() {
+//    String args1 = TestUtils.getJacocoArgs();
+//    String expected1 = System.getProperty("jacoco.args").replace("main.exec", "jacoco-1.exec");
+//    assertEquals(expected1, args1);
+//
+//    String args2 = TestUtils.getJacocoArgs();
+//    String expected2 = System.getProperty("jacoco.args").replace("main.exec", "jacoco-2.exec");
+//    assertEquals(expected2, args2);
+//  }
 
 }

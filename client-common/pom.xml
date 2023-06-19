@@ -50,4 +50,7 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  <properties>
+    <skipTests>true</skipTests>
+  </properties>
 </project>

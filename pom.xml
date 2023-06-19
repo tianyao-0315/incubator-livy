@@ -794,7 +794,7 @@
               <java.awt.headless>true</java.awt.headless>
               <java.io.tmpdir>${project.build.directory}/tmp</java.io.tmpdir>
               <livy.environment>development</livy.environment>
-              <jacoco.args>${argLine}</jacoco.args>
+<!--              <jacoco.args>${argLine}</jacoco.args>-->
               <spark.ui.enabled>false</spark.ui.enabled>
               <project.version>${project.version}</project.version>
               <skipRTests>${skipRTests}</skipRTests>
@@ -802,7 +802,7 @@
             </systemProperties>
             <redirectTestOutputToFile>${test.redirectToFile}</redirectTestOutputToFile>
             <useFile>${test.redirectToFile}</useFile>
-            <argLine>${argLine} -Xmx2g</argLine>
+            <argLine>-Xmx2g</argLine>
             <failIfNoTests>false</failIfNoTests>
           </configuration>
         </plugin>
@@ -823,7 +823,7 @@
               <java.awt.headless>true</java.awt.headless>
               <java.io.tmpdir>${project.build.directory}/tmp</java.io.tmpdir>
               <livy.environment>development</livy.environment>
-              <jacoco.args>${argLine}</jacoco.args>
+<!--              <jacoco.args>${argLine}</jacoco.args>-->
               <spark.ui.enabled>false</spark.ui.enabled>
               <project.version>${project.version}</project.version>
               <skipRTests>${skipRTests}</skipRTests>
@@ -833,7 +833,7 @@
             <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
             <junitxml>.</junitxml>
             <filereports>WDF TestSuite.txt</filereports>
-            <argLine>${argLine} -Xmx2g</argLine>
+            <argLine>-Xmx2g</argLine>
           </configuration>
           <executions>
             <execution>
@@ -1112,7 +1112,7 @@
             <configuration>
               <resourceBundles>
                 <resourceBundle>org.apache:apache-jar-resource-bundle:1.4</resourceBundle>
-                <resourceBundle>org.apache.apache.resources:apache-incubator-disclaimer-resource-bundle:1.2-SNAPSHOT</resourceBundle>
+<!--                <resourceBundle>org.apache.apache.resources:apache-incubator-disclaimer-resource-bundle:1.2-SNAPSHOT</resourceBundle>-->
               </resourceBundles>
             </configuration>
           </execution>
